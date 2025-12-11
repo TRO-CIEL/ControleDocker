@@ -18,3 +18,20 @@
     ports:
       - "8082:80"
 
+  portainer:
+    image: portainer/portainer-ce:alpine
+    container_name: portainer
+    command:
+      - -H
+      - unix:///var/run/docker.sock
+    ports:
+      - ""8083:9000""
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    restart: always
+
+volumes:
+  portainer_data:
+
+
