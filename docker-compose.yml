@@ -9,3 +9,10 @@
       - ./VolumesMosquitto/data:/mosquitto/data
       - ./VolumesMosquitto/log:/mosquitto/log
 
+  mqtt_clientweb:
+    image: emqx/mqttx-web
+    container_name: mqtt_mqttx-web
+    depends_on:
+      - mqtt_broker
+    ports:
+      - ""8082:80""
