@@ -1,0 +1,12 @@
+﻿<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>Logs</title></head>
+<body>
+  <h1>Logs</h1>
+  <p>Contenu du log :</p>
+  <pre id="log"></pre>
+  <script>
+    fetch('/log').then(r=>r.text()).then(t=>document.getElementById('log').textContent=t).catch(console.error);
+  </script>
+</body>
+</html>
