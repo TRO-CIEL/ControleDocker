@@ -3,6 +3,7 @@
     image: eclipse-mosquitto
     container_name: mqtt_mosquitto
     ports:
+      - "1882:1883"
       - "1883:1883"
       - "9005:9005"
     volumes:
