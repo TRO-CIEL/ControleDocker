@@ -1,0 +1,157 @@
+1765441268: mosquitto version 2.0.22 starting
+1765441268: Config loaded from /mosquitto/config/mosquitto.conf.
+1765441268: Opening ipv4 listen socket on port 1883.
+1765441268: Opening ipv6 listen socket on port 1883.
+1765441268: mosquitto version 2.0.22 running
+1765441269: New connection from ::1:47548 on port 1883.
+1765441269: New client connected from ::1:47548 as auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82 (p2, c1, k60).
+1765441269: No will message specified.
+1765441269: Sending CONNACK to auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82 (0, 0)
+1765441269: Received SUBSCRIBE from auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82
+1765441269: 	TopicControle (QoS 0)
+1765441269: auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82 0 TopicControle
+1765441269: Sending SUBACK to auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82
+1765441270: New connection from ::1:47556 on port 1883.
+1765441270: New client connected from ::1:47556 as auto-7B94AC63-B3FF-E168-89DE-0FA2686ED92A (p2, c1, k60).
+1765441270: No will message specified.
+1765441270: Sending CONNACK to auto-7B94AC63-B3FF-E168-89DE-0FA2686ED92A (0, 0)
+1765441270: Received PUBLISH from auto-7B94AC63-B3FF-E168-89DE-0FA2686ED92A (d0, q0, r0, m0, 'TopicControle', ... (4 bytes))
+1765441270: Sending PUBLISH to auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82 (d0, q0, r0, m0, 'TopicControle', ... (4 bytes))
+1765441270: Received DISCONNECT from auto-7B94AC63-B3FF-E168-89DE-0FA2686ED92A
+1765441270: Client auto-7B94AC63-B3FF-E168-89DE-0FA2686ED92A disconnected.
+1765441270: Received DISCONNECT from auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82
+1765441270: Client auto-8C53756E-3176-C6E2-53DE-C4B9F1B91A82 disconnected.
+1765441293: New connection from ::1:33172 on port 1883.
+1765441293: New client connected from ::1:33172 as auto-DB882227-57F0-FEA0-632B-216F59119D99 (p2, c1, k60).
+1765441293: No will message specified.
+1765441293: Sending CONNACK to auto-DB882227-57F0-FEA0-632B-216F59119D99 (0, 0)
+1765441293: Received SUBSCRIBE from auto-DB882227-57F0-FEA0-632B-216F59119D99
+1765441293: 	TopicControle (QoS 0)
+1765441293: auto-DB882227-57F0-FEA0-632B-216F59119D99 0 TopicControle
+1765441293: Sending SUBACK to auto-DB882227-57F0-FEA0-632B-216F59119D99
+1765441294: New connection from ::1:33186 on port 1883.
+1765441294: New client connected from ::1:33186 as auto-1DA32BF9-24BE-4F40-FB49-E7BA8A87390E (p2, c1, k60).
+1765441294: No will message specified.
+1765441294: Sending CONNACK to auto-1DA32BF9-24BE-4F40-FB49-E7BA8A87390E (0, 0)
+1765441294: Received PUBLISH from auto-1DA32BF9-24BE-4F40-FB49-E7BA8A87390E (d0, q0, r0, m0, 'TopicControle', ... (7 bytes))
+1765441294: Sending PUBLISH to auto-DB882227-57F0-FEA0-632B-216F59119D99 (d0, q0, r0, m0, 'TopicControle', ... (7 bytes))
+1765441294: Received DISCONNECT from auto-1DA32BF9-24BE-4F40-FB49-E7BA8A87390E
+1765441294: Client auto-1DA32BF9-24BE-4F40-FB49-E7BA8A87390E disconnected.
+1765441294: Received DISCONNECT from auto-DB882227-57F0-FEA0-632B-216F59119D99
+1765441294: Client auto-DB882227-57F0-FEA0-632B-216F59119D99 disconnected.
+1765441604: mosquitto version 2.0.22 terminating
+1765441620: mosquitto version 2.0.22 starting
+1765441620: Config loaded from /mosquitto/config/mosquitto.conf.
+1765441620: Opening ipv4 listen socket on port 1883.
+1765441620: Opening ipv6 listen socket on port 1883.
+1765441620: Opening websockets listen socket on port 9005.
+1765441620: mosquitto version 2.0.22 running
+1765441671: mosquitto version 2.0.22 terminating
+1765441673: mosquitto version 2.0.22 starting
+1765441673: Config loaded from /mosquitto/config/mosquitto.conf.
+1765441673: Opening ipv4 listen socket on port 1883.
+1765441673: Opening ipv6 listen socket on port 1883.
+1765441673: Opening websockets listen socket on port 9005.
+1765441673: mosquitto version 2.0.22 running
+1765441819: New connection from ::1:43560 on port 1883.
+1765441819: New client connected from ::1:43560 as auto-78ADF74D-8C3F-F0DB-DD6B-9ECA920E9BFC (p2, c1, k60).
+1765441819: No will message specified.
+1765441819: Sending CONNACK to auto-78ADF74D-8C3F-F0DB-DD6B-9ECA920E9BFC (0, 0)
+1765441819: Received PUBLISH from auto-78ADF74D-8C3F-F0DB-DD6B-9ECA920E9BFC (d0, q0, r0, m0, 'BTS', ... (6 bytes))
+1765441819: Received DISCONNECT from auto-78ADF74D-8C3F-F0DB-DD6B-9ECA920E9BFC
+1765441819: Client auto-78ADF74D-8C3F-F0DB-DD6B-9ECA920E9BFC disconnected.
+1765441876: New connection from ::1:60814 on port 1883.
+1765441876: New client connected from ::1:60814 as auto-9FD9E035-273F-EAB4-237C-3A53F48357C9 (p2, c1, k60).
+1765441876: No will message specified.
+1765441876: Sending CONNACK to auto-9FD9E035-273F-EAB4-237C-3A53F48357C9 (0, 0)
+1765441876: Received PUBLISH from auto-9FD9E035-273F-EAB4-237C-3A53F48357C9 (d0, q0, r0, m0, 'CIEL', ... (2 bytes))
+1765441876: Received DISCONNECT from auto-9FD9E035-273F-EAB4-237C-3A53F48357C9
+1765441876: Client auto-9FD9E035-273F-EAB4-237C-3A53F48357C9 disconnected.
+1765441989: mosquitto version 2.0.22 terminating
+1765442023: mosquitto version 2.0.22 starting
+1765442023: Config loaded from /mosquitto/config/mosquitto.conf.
+1765442023: Opening ipv4 listen socket on port 1883.
+1765442023: Opening ipv6 listen socket on port 1883.
+1765442023: Opening websockets listen socket on port 9005.
+1765442023: mosquitto version 2.0.22 running
+1765442024: New connection from ::1:58672 on port 1883.
+1765442024: New client connected from ::1:58672 as auto-CD5ABF9A-1824-7F4A-2ED7-FE58FF0B4464 (p2, c1, k60).
+1765442024: No will message specified.
+1765442024: Sending CONNACK to auto-CD5ABF9A-1824-7F4A-2ED7-FE58FF0B4464 (0, 0)
+1765442024: Received PUBLISH from auto-CD5ABF9A-1824-7F4A-2ED7-FE58FF0B4464 (d0, q0, r0, m0, 'CIEL', ... (2 bytes))
+1765442024: Received DISCONNECT from auto-CD5ABF9A-1824-7F4A-2ED7-FE58FF0B4464
+1765442024: Client auto-CD5ABF9A-1824-7F4A-2ED7-FE58FF0B4464 disconnected.
+1765442026: New connection from 172.20.0.5:58136 on port 1883.
+1765442026: New client connected from 172.20.0.5:58136 as auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560 (p2, c1, k60).
+1765442026: No will message specified.
+1765442026: Sending CONNACK to auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560 (0, 0)
+1765442026: Received SUBSCRIBE from auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560
+1765442026: 	# (QoS 0)
+1765442026: auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560 0 #
+1765442026: Sending SUBACK to auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560
+1765442086: Received PINGREQ from auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560
+1765442086: Sending PINGRESP to auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560
+1765442115: Received DISCONNECT from auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560
+1765442115: Client auto-0EF23B2A-FD5C-ECD0-8118-47147F88F560 disconnected.
+1765442116: mosquitto version 2.0.22 terminating
+1765442118: mosquitto version 2.0.22 starting
+1765442118: Config loaded from /mosquitto/config/mosquitto.conf.
+1765442118: Opening ipv4 listen socket on port 1883.
+1765442118: Opening ipv6 listen socket on port 1883.
+1765442118: Opening websockets listen socket on port 9005.
+1765442118: mosquitto version 2.0.22 running
+1765442119: New connection from ::1:37134 on port 1883.
+1765442119: New client connected from ::1:37134 as auto-75E807A4-303B-2843-74F8-D83822B1863E (p2, c1, k60).
+1765442119: No will message specified.
+1765442119: Sending CONNACK to auto-75E807A4-303B-2843-74F8-D83822B1863E (0, 0)
+1765442119: Received PUBLISH from auto-75E807A4-303B-2843-74F8-D83822B1863E (d0, q0, r0, m0, 'CIEL', ... (2 bytes))
+1765442119: Received DISCONNECT from auto-75E807A4-303B-2843-74F8-D83822B1863E
+1765442119: Client auto-75E807A4-303B-2843-74F8-D83822B1863E disconnected.
+1765442120: New connection from 172.20.0.5:60812 on port 1883.
+1765442120: New client connected from 172.20.0.5:60812 as auto-6477E535-444C-0F07-3E73-EDB9E4A7369C (p2, c1, k60).
+1765442120: No will message specified.
+1765442120: Sending CONNACK to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C (0, 0)
+1765442120: Received SUBSCRIBE from auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442120: 	# (QoS 0)
+1765442120: auto-6477E535-444C-0F07-3E73-EDB9E4A7369C 0 #
+1765442120: Sending SUBACK to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442136: New connection from ::1:49424 on port 1883.
+1765442136: New client connected from ::1:49424 as auto-C89320F6-94A2-37CF-0032-4F49A9A10798 (p2, c1, k60).
+1765442136: No will message specified.
+1765442136: Sending CONNACK to auto-C89320F6-94A2-37CF-0032-4F49A9A10798 (0, 0)
+1765442136: Received PUBLISH from auto-C89320F6-94A2-37CF-0032-4F49A9A10798 (d0, q0, r0, m0, 'CIEL', ... (14 bytes))
+1765442136: Sending PUBLISH to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C (d0, q0, r0, m0, 'CIEL', ... (14 bytes))
+1765442136: Received DISCONNECT from auto-C89320F6-94A2-37CF-0032-4F49A9A10798
+1765442136: Client auto-C89320F6-94A2-37CF-0032-4F49A9A10798 disconnected.
+1765442181: Received PINGREQ from auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442181: Sending PINGRESP to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442186: New connection from ::1:51136 on port 1883.
+1765442186: New client connected from ::1:51136 as auto-02FDFAA2-7B13-28C5-931C-CBB320ADAF0A (p2, c1, k60).
+1765442186: No will message specified.
+1765442186: Sending CONNACK to auto-02FDFAA2-7B13-28C5-931C-CBB320ADAF0A (0, 0)
+1765442186: Received PUBLISH from auto-02FDFAA2-7B13-28C5-931C-CBB320ADAF0A (d0, q0, r0, m0, 'CIEL', ... (8 bytes))
+1765442186: Sending PUBLISH to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C (d0, q0, r0, m0, 'CIEL', ... (8 bytes))
+1765442186: Received DISCONNECT from auto-02FDFAA2-7B13-28C5-931C-CBB320ADAF0A
+1765442186: Client auto-02FDFAA2-7B13-28C5-931C-CBB320ADAF0A disconnected.
+1765442241: Received PINGREQ from auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442241: Sending PINGRESP to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442257: New connection from ::1:51216 on port 1883.
+1765442258: New client connected from ::1:51216 as auto-4849862B-782F-2D3A-472D-D7BBBB09044E (p2, c1, k60).
+1765442258: No will message specified.
+1765442258: Sending CONNACK to auto-4849862B-782F-2D3A-472D-D7BBBB09044E (0, 0)
+1765442258: Received PUBLISH from auto-4849862B-782F-2D3A-472D-D7BBBB09044E (d0, q0, r0, m0, 'CIEL', ... (20 bytes))
+1765442258: Sending PUBLISH to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C (d0, q0, r0, m0, 'CIEL', ... (20 bytes))
+1765442258: Received DISCONNECT from auto-4849862B-782F-2D3A-472D-D7BBBB09044E
+1765442258: Client auto-4849862B-782F-2D3A-472D-D7BBBB09044E disconnected.
+1765442301: Received PINGREQ from auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442301: Sending PINGRESP to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442356: New connection from ::1:54656 on port 1883.
+1765442356: New client connected from ::1:54656 as auto-33773494-EE11-3493-2032-CF3DCAD918DF (p2, c1, k60).
+1765442356: No will message specified.
+1765442356: Sending CONNACK to auto-33773494-EE11-3493-2032-CF3DCAD918DF (0, 0)
+1765442356: Received PUBLISH from auto-33773494-EE11-3493-2032-CF3DCAD918DF (d0, q0, r0, m0, 'CIEL', ... (20 bytes))
+1765442356: Sending PUBLISH to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C (d0, q0, r0, m0, 'CIEL', ... (20 bytes))
+1765442356: Received DISCONNECT from auto-33773494-EE11-3493-2032-CF3DCAD918DF
+1765442356: Client auto-33773494-EE11-3493-2032-CF3DCAD918DF disconnected.
+1765442361: Received PINGREQ from auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
+1765442361: Sending PINGRESP to auto-6477E535-444C-0F07-3E73-EDB9E4A7369C
