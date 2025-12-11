@@ -18,23 +18,6 @@
     ports:
       - "8082:80"
 
-  portainer:
-    image: portainer/portainer-ce:alpine
-    container_name: portainer
-    command:
-      - -H
-      - unix:///var/run/docker.sock
-    ports:
-      - ""8083:9000""
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
-    restart: always
-
-volumes:
-  portainer_data:
-
-
   mqtt_logger:
     image: eclipse-mosquitto
     depends_on:
@@ -43,6 +26,7 @@ volumes:
       sh -c 'sleep 2 && mosquitto_sub -h mqtt_broker -t "#" -v >> /mosquitto/log/messages.log'
     volumes:
       - ./VolumesMosquitto/log:/mosquitto/log
+
   mqtt_logweb:
     image: node:20-slim
     container_name: mqtt_logweb
@@ -55,3 +39,19 @@ volumes:
     command: sh -c "npm install && node server.js"
     ports:
       - "8084:80"
+
+  portainer:
+    image: portainer/portainer-ce:alpine
+    container_name: portainer
+    command:
+      - -H
+      - unix:///var/run/docker.sock
+    ports:
+      - "8083:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    restart: always
+
+volumes:
+  portainer_data:
