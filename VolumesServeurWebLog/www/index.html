@@ -1,12 +1,22 @@
-﻿<!doctype html>
-<html lang="fr">
-<head><meta charset="utf-8"><title>Logs</title></head>
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Logs</title>
+<meta http-equiv="refresh" content="5">
+<style>
+body { background: #111; color: #0f0; font-family: monospace; padding: 20px; }
+pre { white-space: pre-wrap; }
+</style>
+</head>
 <body>
-  <h1>Logs</h1>
-  <p>Contenu du log :</p>
-  <pre id="log"></pre>
-  <script>
-    fetch('/log').then(r=>r.text()).then(t=>document.getElementById('log').textContent=t).catch(console.error);
-  </script>
+<h1>Contenu du log :</h1>
+<div id="log">
+<script>
+fetch('/log')
+.then(response => response.text())
+.then(data => document.getElementById('log').innerHTML = data);
+</script>
+</div>
 </body>
 </html>
